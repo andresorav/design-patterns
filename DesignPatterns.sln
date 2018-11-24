@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{1C591B23-D7DD-4CAD-8E83-CE8696050D85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{68019799-B0EB-414C-B63C-A533EB2231D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{30A110F8-8B3D-4C07-8692-D3FF1D42D011}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C591B23-D7DD-4CAD-8E83-CE8696050D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C591B23-D7DD-4CAD-8E83-CE8696050D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C591B23-D7DD-4CAD-8E83-CE8696050D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C591B23-D7DD-4CAD-8E83-CE8696050D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68019799-B0EB-414C-B63C-A533EB2231D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68019799-B0EB-414C-B63C-A533EB2231D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68019799-B0EB-414C-B63C-A533EB2231D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68019799-B0EB-414C-B63C-A533EB2231D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30A110F8-8B3D-4C07-8692-D3FF1D42D011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A110F8-8B3D-4C07-8692-D3FF1D42D011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A110F8-8B3D-4C07-8692-D3FF1D42D011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A110F8-8B3D-4C07-8692-D3FF1D42D011}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
