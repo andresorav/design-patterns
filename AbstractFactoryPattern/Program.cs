@@ -20,7 +20,7 @@ namespace AbstractFactoryPattern
             WriteProductNames(upperProducts);
         }
 
-        private static void WriteProductNames(List<AbstractProduct> products)
+        private static void WriteProductNames(IEnumerable<AbstractProduct> products)
         {
             foreach (var product in products)
             {
