@@ -20,6 +20,9 @@ Useful when only one instance of a class should be created.
 ## Structural Patterns
 
 ### Adapter Pattern
+Converts the interface of a class into another interface clients expect.
+
+Useful when combining the capability of two independent interfaces.
 
 ### Decorator Pattern
 Allows attaching new behaviors to objects by wrapping these objects inside another. Decorator implements the same interface as the object and delegates the calls to the object it wraps.

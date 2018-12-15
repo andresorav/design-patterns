@@ -6,7 +6,10 @@ namespace AdapterPattern
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var client = new Client(new Adapter(new Adaptee()));
+
+            Console.WriteLine("Response from client:");
+            Console.WriteLine(client.Request());
         }
     }
 }
