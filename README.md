@@ -32,7 +32,10 @@ Useful when original objects behaviors could not be changed.
 ## Behavioral Patterns
 
 ### Command Pattern
+A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
 
+Executor of the command does not need to know anything at all about what the command is, what context information it needs on or what it does. All of that is encapsulated in the command.
+       
 ### Observer Pattern
 Defines a one-to-many dependency between an observable and observer(s) so that when observable changes state, all observers are notified and updated automatically.
 
