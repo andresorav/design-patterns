@@ -22,7 +22,7 @@ Useful when only one instance of a class should be created.
 ### Adapter Pattern
 
 ### Decorator Pattern
-Structural design pattern that allows attaching new behaviors to objects by wrapping these objects inside another. Decorator implements the same interface as the object and delegates the calls to the object it wraps.
+Allows attaching new behaviors to objects by wrapping these objects inside another. Decorator implements the same interface as the object and delegates the calls to the object it wraps.
 
 Useful when original objects behaviors could not be changed. 
 
