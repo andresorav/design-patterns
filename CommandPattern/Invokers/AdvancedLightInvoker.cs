@@ -1,15 +1,21 @@
 using CommandPattern.Commands;
 
-namespace CommandPattern
+namespace CommandPattern.Invokers
 {
-    public class Invoker
+    public interface IAdvancedLightInvoker : ILightInvoker
+    {
+        void DimLightDown();
+        void DimLightUp();
+    }
+    
+    public class AdvancedLightInvoker : IAdvancedLightInvoker
     {
         private readonly ICommand _onCommand;
         private readonly ICommand _offCommand;
         private readonly ICommand _dimUpCommand;
         private readonly ICommand _dimDownCommand;
 
-        public Invoker(ICommand onCommand, ICommand offCommand, ICommand dimUpCommand, ICommand dimDownCommand)
+        public AdvancedLightInvoker(ICommand onCommand, ICommand offCommand, ICommand dimUpCommand, ICommand dimDownCommand)
         {
             _onCommand = onCommand;
             _offCommand = offCommand;
@@ -17,24 +23,24 @@ namespace CommandPattern
             _dimDownCommand = dimDownCommand;
         }
 
-        void On()
+        public void LightOn()
         {
             _onCommand.Execute();
         }
 
-        void Off()
+        public void LightOff()
         {
             _offCommand.Execute();
         }
 
-        void DimUp()
-        {
-            _dimUpCommand.Execute();
-        }
-
-        void DimDown()
+        public void DimLightDown()
         {
             _dimDownCommand.Execute();
+        }
+
+        public void DimLightUp()
+        {
+            _dimUpCommand.Execute();
         }
     }
 }
