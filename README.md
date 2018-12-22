@@ -29,6 +29,11 @@ Allows attaching new behaviors to objects by wrapping these objects inside anoth
 
 Useful when original objects behaviors could not be changed. 
 
+### Facade Pattern
+Wraps complicated system(s) with a simpler interface.
+
+Useful hiding the complexity of the complicated system behind a interface which the client can access.
+
 ## Behavioral Patterns
 
 ### Command Pattern
