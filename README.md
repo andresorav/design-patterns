@@ -34,6 +34,12 @@ Wraps complicated system(s) with a simpler interface.
 
 Useful hiding the complexity of the complicated system behind a interface which the client can access.
 
+### Proxy pattern
+Provides a placeholder for another object to control access to it.
+Use an extra level of indirection to support distributed, controlled or intelligent access.
+
+Useful when accessing the object is expensive.
+
 ## Behavioral Patterns
 
 ### Command Pattern
