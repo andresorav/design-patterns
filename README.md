@@ -24,6 +24,11 @@ Converts the interface of a class into another interface clients expect.
 
 Useful when combining the capability of two independent interfaces.
 
+### Bridge Pattern
+Helps to decouple implementation class and abstract class by providing a bridge structure between them.
+
+Useful when you have an abstraction that has different implementations. It allows the abstraction and the implementation to vary independently of each other.
+
 ### Decorator Pattern
 Allows attaching new behaviors to objects by wrapping these objects inside another. Decorator implements the same interface as the object and delegates the calls to the object it wraps.
 
