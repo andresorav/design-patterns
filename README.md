@@ -63,6 +63,11 @@ Defines a family of algorithms (strategies), encapsulates each one, and makes th
 Useful for achieving the Single Responsibility Principle and Dependency Inversion Principle.
 
 
+### Template Method Pattern
+An abstract class defines an algorithm as skeleton of operations and leaves the details to be implemented by the child classes.
+
+Useful for complex algorithms that must be shared and executed by multiple classes, where each class could define their own specific implementation.
+
 
 
 
