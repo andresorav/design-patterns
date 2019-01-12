@@ -29,6 +29,11 @@ Helps to decouple implementation class and abstract class by providing a bridge 
 
 Useful when you have an abstraction that has different implementations. It allows the abstraction and the implementation to vary independently of each other.
 
+### Composite Pattern
+Is used when there's a need to treat a group of objects in similar way as a single object.
+
+Useful when dealing with tree-structured data. 
+
 ### Decorator Pattern
 Allows attaching new behaviors to objects by wrapping these objects inside another. Decorator implements the same interface as the object and delegates the calls to the object it wraps.
 
