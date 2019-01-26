@@ -13,7 +13,7 @@ namespace CompositePattern
 
         public void PrintTodo(string space = "")
         {
-            Console.WriteLine("{0}* Task: {1}", space,_title);
+            Console.WriteLine("{0}* Task: {1}", space, _title);
         }
     }
 }
