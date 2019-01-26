@@ -57,6 +57,9 @@ A request is wrapped under an object as command and passed to invoker object. In
 
 Executor of the command does not need to know anything at all about what the command is, what context information it needs on or what it does. All of that is encapsulated in the command.
        
+### Iterator Pattern
+Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. 
+
 ### Observer Pattern
 Defines a one-to-many dependency between an observable and observer(s) so that when observable changes state, all observers are notified and updated automatically.
 
