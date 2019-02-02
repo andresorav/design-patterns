@@ -70,6 +70,8 @@ Defines a family of algorithms (strategies), encapsulates each one, and makes th
 
 Useful for achieving the Single Responsibility Principle and Dependency Inversion Principle.
 
+### State Pattern
+Allows an object to alter its behavior when its internal state changes.
 
 ### Template Method Pattern
 An abstract class defines an algorithm as skeleton of operations and leaves the details to be implemented by the child classes.
