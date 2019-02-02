@@ -13,7 +13,7 @@ namespace IteratorPattern.HandHeld
 
         public override string GetName()
         {
-            return $"{base.GetName()} is in {_hand} a hand";
+            return $"{base.GetName()} is in a {_hand} hand";
         }
     }
 }
