@@ -65,13 +65,18 @@ Defines a one-to-many dependency between an observable and observer(s) so that w
 
 Useful when the change of a state in one object must be reflected in another object without keeping the objects tightly coupled.
 
+### Null Object Pattern
+Provides a substitutable alternative that offers suitable default do nothing behavior.
+
+Useful for removing those null checks conditions.
+
+### State Pattern
+Allows an object to alter its behavior when its internal state changes.
+
 ### Strategy Pattern
 Defines a family of algorithms (strategies), encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 Useful for achieving the Single Responsibility Principle and Dependency Inversion Principle.
-
-### State Pattern
-Allows an object to alter its behavior when its internal state changes.
 
 ### Template Method Pattern
 An abstract class defines an algorithm as skeleton of operations and leaves the details to be implemented by the child classes.
